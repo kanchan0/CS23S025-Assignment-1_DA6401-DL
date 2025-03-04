@@ -1,0 +1,22 @@
+{"time":"2025-03-04T14:59:53.454657333+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250304_145953-fva6fz5z/logs/debug-core.log"}
+{"time":"2025-03-04T14:59:53.559744928+05:30","level":"INFO","msg":"created new stream","id":"fva6fz5z"}
+{"time":"2025-03-04T14:59:53.559778801+05:30","level":"INFO","msg":"stream: started","id":"fva6fz5z"}
+{"time":"2025-03-04T14:59:53.559871692+05:30","level":"INFO","msg":"sender: started","stream_id":"fva6fz5z"}
+{"time":"2025-03-04T14:59:53.559874067+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fva6fz5z"}
+{"time":"2025-03-04T14:59:53.559925192+05:30","level":"INFO","msg":"handler: started","stream_id":"fva6fz5z"}
+{"time":"2025-03-04T14:59:53.960166676+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-04T14:59:54.053597808+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:59:54.053679873+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:59:54.27312095+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:59:54.313447064+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:59:54.313489808+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:59:54.313501611+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:59:55.156796046+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-04T14:59:55.157326012+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-04T14:59:56.158812992+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fva6fz5z-sample_images_table","runtime_seconds":1.004999018}],"total_operations":1}}
+{"time":"2025-03-04T14:59:59.156230092+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-04T15:00:00.461002122+05:30","level":"INFO","msg":"stream: closing","id":"fva6fz5z"}
+{"time":"2025-03-04T15:00:00.461024122+05:30","level":"INFO","msg":"handler: closed","stream_id":"fva6fz5z"}
+{"time":"2025-03-04T15:00:00.461037323+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fva6fz5z"}
+{"time":"2025-03-04T15:00:00.461057996+05:30","level":"INFO","msg":"sender: closed","stream_id":"fva6fz5z"}
+{"time":"2025-03-04T15:00:00.461095502+05:30","level":"INFO","msg":"stream: closed","id":"fva6fz5z"}

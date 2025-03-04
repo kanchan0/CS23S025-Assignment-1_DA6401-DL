@@ -1,6 +1,4 @@
-import argparse
-import wandb
-import os
+from libImports import *
 
 class HyperParameterParser:
   
@@ -42,11 +40,18 @@ def initializeWandb(config):
         entity=config.entity_name
     )
 
-
+'''def execute_training(params):
+    output = model_train(
+    params.epoch_count, params.lr_rate, params.neurons_per_layer,
+    params.hidden_layers, params.activation_func, params.batch_sz,
+    params.optimizer_type, x_train, y_train, x_val, y_val
+    )
+    return output'''
 
 if __name__ == "__main__":
     config = HyperParameterParser()  
     initializeWandb(config.params)  
+   # train_result = execute_training(config.params)
     wandb.finish()
 
 

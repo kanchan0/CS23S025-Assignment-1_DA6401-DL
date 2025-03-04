@@ -1,0 +1,6 @@
+{"time":"2025-03-03T23:48:32.142921663+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250303_234832-6k6gzems/logs/debug-core.log"}
+{"time":"2025-03-03T23:48:32.246759506+05:30","level":"INFO","msg":"created new stream","id":"6k6gzems"}
+{"time":"2025-03-03T23:48:32.246800434+05:30","level":"INFO","msg":"stream: started","id":"6k6gzems"}
+{"time":"2025-03-03T23:48:32.246838568+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"6k6gzems"}
+{"time":"2025-03-03T23:48:32.246863362+05:30","level":"INFO","msg":"handler: started","stream_id":"6k6gzems"}
+{"time":"2025-03-03T23:48:32.246879077+05:30","level":"INFO","msg":"sender: started","stream_id":"6k6gzems"}

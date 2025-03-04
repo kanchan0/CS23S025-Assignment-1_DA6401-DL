@@ -1,0 +1,40 @@
+{"time":"2025-03-04T15:10:00.328865742+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250304_151000-izygq6z3/logs/debug-core.log"}
+{"time":"2025-03-04T15:10:00.433660873+05:30","level":"INFO","msg":"created new stream","id":"izygq6z3"}
+{"time":"2025-03-04T15:10:00.433691323+05:30","level":"INFO","msg":"stream: started","id":"izygq6z3"}
+{"time":"2025-03-04T15:10:00.433736231+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"izygq6z3"}
+{"time":"2025-03-04T15:10:00.433769126+05:30","level":"INFO","msg":"handler: started","stream_id":"izygq6z3"}
+{"time":"2025-03-04T15:10:00.43382863+05:30","level":"INFO","msg":"sender: started","stream_id":"izygq6z3"}
+{"time":"2025-03-04T15:10:00.863421367+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-04T15:10:00.970508393+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:10:03.450760208+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:10:03.703874024+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:10:18.619632429+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:10:18.622667223+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:10:29.709098262+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:10:29.749445193+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:10:34.845493828+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:10:35.417126665+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:14:09.165259874+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:14:09.205430027+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:14:13.123645052+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:14:13.164855566+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:14:15.863632337+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:14:15.865771997+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:14:17.318771002+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:14:17.322292263+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:14:17.495885876+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:14:17.508284532+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:14:19.295901902+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:14:19.29856209+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:14:20.268152028+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:14:20.270714647+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T15:14:23.715652538+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T15:14:23.75690343+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-04T15:14:23.758270785+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-04T15:14:24.719637983+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.313832585},{"desc":"uploading wandb-summary.json","runtime_seconds":0.313822459,"progress":"869B/869B"}],"total_operations":2}}
+{"time":"2025-03-04T15:14:25.298235482+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-04T15:14:26.600905601+05:30","level":"INFO","msg":"stream: closing","id":"izygq6z3"}
+{"time":"2025-03-04T15:14:26.600928928+05:30","level":"INFO","msg":"handler: closed","stream_id":"izygq6z3"}
+{"time":"2025-03-04T15:14:26.600942407+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"izygq6z3"}
+{"time":"2025-03-04T15:14:26.600980471+05:30","level":"INFO","msg":"sender: closed","stream_id":"izygq6z3"}
+{"time":"2025-03-04T15:14:26.601027125+05:30","level":"INFO","msg":"stream: closed","id":"izygq6z3"}

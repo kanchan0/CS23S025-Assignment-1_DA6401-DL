@@ -1,0 +1,22 @@
+{"time":"2025-03-04T14:30:54.074229487+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250304_143054-utevjw5r/logs/debug-core.log"}
+{"time":"2025-03-04T14:30:54.179181497+05:30","level":"INFO","msg":"created new stream","id":"utevjw5r"}
+{"time":"2025-03-04T14:30:54.179222424+05:30","level":"INFO","msg":"stream: started","id":"utevjw5r"}
+{"time":"2025-03-04T14:30:54.179251059+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"utevjw5r"}
+{"time":"2025-03-04T14:30:54.17927718+05:30","level":"INFO","msg":"sender: started","stream_id":"utevjw5r"}
+{"time":"2025-03-04T14:30:54.179445009+05:30","level":"INFO","msg":"handler: started","stream_id":"utevjw5r"}
+{"time":"2025-03-04T14:30:54.531127279+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-04T14:30:54.626657861+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:30:54.626720369+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:30:54.846125157+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:30:54.888882977+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:30:54.888913428+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:30:54.888922927+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:30:55.404023052+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-04T14:30:55.404549518+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-04T14:30:56.406051576+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.406586483,"progress":"499B/499B"}],"total_operations":1}}
+{"time":"2025-03-04T14:30:56.570888263+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-04T14:30:57.869862479+05:30","level":"INFO","msg":"stream: closing","id":"utevjw5r"}
+{"time":"2025-03-04T14:30:57.869888251+05:30","level":"INFO","msg":"handler: closed","stream_id":"utevjw5r"}
+{"time":"2025-03-04T14:30:57.869899216+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"utevjw5r"}
+{"time":"2025-03-04T14:30:57.869918772+05:30","level":"INFO","msg":"sender: closed","stream_id":"utevjw5r"}
+{"time":"2025-03-04T14:30:57.869963121+05:30","level":"INFO","msg":"stream: closed","id":"utevjw5r"}

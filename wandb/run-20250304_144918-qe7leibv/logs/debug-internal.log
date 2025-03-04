@@ -1,0 +1,22 @@
+{"time":"2025-03-04T14:49:18.571218042+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250304_144918-qe7leibv/logs/debug-core.log"}
+{"time":"2025-03-04T14:49:18.675289225+05:30","level":"INFO","msg":"created new stream","id":"qe7leibv"}
+{"time":"2025-03-04T14:49:18.675319047+05:30","level":"INFO","msg":"stream: started","id":"qe7leibv"}
+{"time":"2025-03-04T14:49:18.675354248+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qe7leibv"}
+{"time":"2025-03-04T14:49:18.675378623+05:30","level":"INFO","msg":"sender: started","stream_id":"qe7leibv"}
+{"time":"2025-03-04T14:49:18.675400554+05:30","level":"INFO","msg":"handler: started","stream_id":"qe7leibv"}
+{"time":"2025-03-04T14:49:19.214771531+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-04T14:49:19.307463401+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:49:19.307497205+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:49:19.500593871+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:49:19.54165803+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:49:19.541698469+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:49:19.541708457+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:49:19.88124701+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-04T14:49:19.88177495+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-04T14:49:20.883343505+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-qe7leibv-sample_images_table","runtime_seconds":0.988931936}],"total_operations":1}}
+{"time":"2025-03-04T14:49:23.787846378+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-04T14:49:25.169787116+05:30","level":"INFO","msg":"stream: closing","id":"qe7leibv"}
+{"time":"2025-03-04T14:49:25.169812259+05:30","level":"INFO","msg":"handler: closed","stream_id":"qe7leibv"}
+{"time":"2025-03-04T14:49:25.169826088+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qe7leibv"}
+{"time":"2025-03-04T14:49:25.169844456+05:30","level":"INFO","msg":"sender: closed","stream_id":"qe7leibv"}
+{"time":"2025-03-04T14:49:25.169898864+05:30","level":"INFO","msg":"stream: closed","id":"qe7leibv"}

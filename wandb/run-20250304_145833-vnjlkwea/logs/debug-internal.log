@@ -1,0 +1,22 @@
+{"time":"2025-03-04T14:58:33.505873799+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250304_145833-vnjlkwea/logs/debug-core.log"}
+{"time":"2025-03-04T14:58:33.609727195+05:30","level":"INFO","msg":"created new stream","id":"vnjlkwea"}
+{"time":"2025-03-04T14:58:33.609753874+05:30","level":"INFO","msg":"stream: started","id":"vnjlkwea"}
+{"time":"2025-03-04T14:58:33.609776364+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vnjlkwea"}
+{"time":"2025-03-04T14:58:33.609804929+05:30","level":"INFO","msg":"sender: started","stream_id":"vnjlkwea"}
+{"time":"2025-03-04T14:58:33.609864505+05:30","level":"INFO","msg":"handler: started","stream_id":"vnjlkwea"}
+{"time":"2025-03-04T14:58:33.950457801+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-04T14:58:34.041508267+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:58:34.041548357+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:58:34.24040692+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:58:34.281530773+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:58:34.281565834+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-04T14:58:34.281573866+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-04T14:58:34.588107127+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-04T14:58:34.58856299+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-04T14:58:35.590154158+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":1.2646766999999999,"progress":"1.7KB/1.7KB"},{"desc":"uploading artifact run-vnjlkwea-sample_images_table","runtime_seconds":0.945119458},{"desc":"uploading output.log","runtime_seconds":0.629118673},{"desc":"uploading wandb-summary.json","runtime_seconds":0.629101911,"progress":"1.4KB/1.4KB"},{"desc":"uploading media/images/images_0_c5a7eaa6a52ac0e794bb.png","runtime_seconds":0.62909339,"progress":"631B/631B"},{"desc":"uploading media/images/images_0_4d144877c9093c197264.png","runtime_seconds":0.629086336,"progress":"374B/374B"},{"desc":"uploading media/images/images_0_f9ae28233f32bf80214f.png","runtime_seconds":0.629082495,"progress":"681B/681B"},{"desc":"uploading media/images/images_0_65989982ca9140b3494a.png","runtime_seconds":0.629076139,"progress":"523B/523B"},{"desc":"uploading media/images/images_0_c994f021ba36204ca3c1.png","runtime_seconds":0.629071739,"progress":"590B/590B"},{"desc":"uploading media/images/images_0_352ec8bcbb7f793c3857.png","runtime_seconds":0.629068945,"progress":"503B/503B"}],"total_operations":16}}
+{"time":"2025-03-04T14:58:38.596281567+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-04T14:58:39.904322051+05:30","level":"INFO","msg":"stream: closing","id":"vnjlkwea"}
+{"time":"2025-03-04T14:58:39.904349499+05:30","level":"INFO","msg":"handler: closed","stream_id":"vnjlkwea"}
+{"time":"2025-03-04T14:58:39.904361861+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vnjlkwea"}
+{"time":"2025-03-04T14:58:39.904381417+05:30","level":"INFO","msg":"sender: closed","stream_id":"vnjlkwea"}
+{"time":"2025-03-04T14:58:39.904435824+05:30","level":"INFO","msg":"stream: closed","id":"vnjlkwea"}
