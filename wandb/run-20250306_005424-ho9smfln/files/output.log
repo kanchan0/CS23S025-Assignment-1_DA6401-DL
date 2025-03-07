@@ -1,0 +1,48 @@
+Create sweep with ID: xmkx5mca
+Sweep URL: https://wandb.ai/cs23s025-indian-institute-of-technology-madras/----project-name----/sweeps/xmkx5mca
+Collecting scikit-learn
+  Downloading scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
+Requirement already satisfied: numpy>=1.19.5 in ./DLenv/lib/python3.12/site-packages (from scikit-learn) (2.0.2)
+Collecting scipy>=1.6.0 (from scikit-learn)
+  Downloading scipy-1.15.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m62.0/62.0 kB[0m [31m3.6 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting joblib>=1.2.0 (from scikit-learn)
+  Downloading joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn)
+  Downloading threadpoolctl-3.5.0-py3-none-any.whl.metadata (13 kB)
+Downloading scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13.1/13.1 MB[0m [31m22.5 MB/s[0m eta [36m0:00:00[0m00:01[0m00:01[0m
+[?25hDownloading joblib-1.4.2-py3-none-any.whl (301 kB)
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m301.8/301.8 kB[0m [31m11.0 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading scipy-1.15.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.3 MB)
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m37.3/37.3 MB[0m [31m13.9 MB/s[0m eta [36m0:00:00[0m00:01[0m00:01[0m
+[?25hDownloading threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+Installing collected packages: threadpoolctl, scipy, joblib, scikit-learn
+Successfully installed joblib-1.4.2 scikit-learn-1.6.1 scipy-1.15.2 threadpoolctl-3.5.0
+Note: you may need to restart the kernel to use updated packages.
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: ibiutcnv
+Sweep URL: https://wandb.ai/cs23s025-indian-institute-of-technology-madras/----project-name----/sweeps/ibiutcnv
+Requirement already satisfied: scikit-learn in ./DLenv/lib/python3.12/site-packages (1.6.1)
+Requirement already satisfied: numpy>=1.19.5 in ./DLenv/lib/python3.12/site-packages (from scikit-learn) (2.0.2)
+Requirement already satisfied: scipy>=1.6.0 in ./DLenv/lib/python3.12/site-packages (from scikit-learn) (1.15.2)
+Requirement already satisfied: joblib>=1.2.0 in ./DLenv/lib/python3.12/site-packages (from scikit-learn) (1.4.2)
+Requirement already satisfied: threadpoolctl>=3.1.0 in ./DLenv/lib/python3.12/site-packages (from scikit-learn) (3.5.0)
+Note: you may need to restart the kernel to use updated packages.
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: soeie7dl
+Sweep URL: https://wandb.ai/cs23s025-indian-institute-of-technology-madras/----project-name----/sweeps/soeie7dl
+2025-03-06 00:55:58.301167: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-03-06 00:55:58.304478: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-03-06 00:55:58.315098: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1741202758.333532 2814026 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1741202758.338690 2814026 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-03-06 00:55:58.362581: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+(10000,)
+(60000, 784)
+(60000,)
+(54000, 784)
+(54000,)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

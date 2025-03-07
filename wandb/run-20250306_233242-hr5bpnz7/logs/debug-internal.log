@@ -1,0 +1,22 @@
+{"time":"2025-03-06T23:32:42.830499189+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250306_233242-hr5bpnz7/logs/debug-core.log"}
+{"time":"2025-03-06T23:32:42.934663897+05:30","level":"INFO","msg":"created new stream","id":"hr5bpnz7"}
+{"time":"2025-03-06T23:32:42.934697701+05:30","level":"INFO","msg":"stream: started","id":"hr5bpnz7"}
+{"time":"2025-03-06T23:32:42.93473346+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hr5bpnz7"}
+{"time":"2025-03-06T23:32:42.934762095+05:30","level":"INFO","msg":"handler: started","stream_id":"hr5bpnz7"}
+{"time":"2025-03-06T23:32:42.934800229+05:30","level":"INFO","msg":"sender: started","stream_id":"hr5bpnz7"}
+{"time":"2025-03-06T23:32:43.293875288+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T23:32:43.397518414+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T23:32:43.39755983+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T23:32:43.613703011+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T23:32:43.654539124+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T23:32:43.65457663+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T23:32:43.654584173+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T23:32:43.654696828+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T23:32:43.65523259+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T23:32:44.647198718+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.008612133,"progress":"581B/581B"}],"total_operations":1}}
+{"time":"2025-03-06T23:32:44.973507333+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T23:32:46.30177389+05:30","level":"INFO","msg":"stream: closing","id":"hr5bpnz7"}
+{"time":"2025-03-06T23:32:46.301802037+05:30","level":"INFO","msg":"handler: closed","stream_id":"hr5bpnz7"}
+{"time":"2025-03-06T23:32:46.301817332+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hr5bpnz7"}
+{"time":"2025-03-06T23:32:46.301834933+05:30","level":"INFO","msg":"sender: closed","stream_id":"hr5bpnz7"}
+{"time":"2025-03-06T23:32:46.301889759+05:30","level":"INFO","msg":"stream: closed","id":"hr5bpnz7"}

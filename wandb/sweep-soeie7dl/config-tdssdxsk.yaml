@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activation:
+  value: sigmoid
+batch_size:
+  value: 16
+epochs:
+  value: 10
+h_layers:
+  value: 4
+learning_rate:
+  value: 0.0001
+neurons:
+  value: 64
+optimizer:
+  value: rmsprop

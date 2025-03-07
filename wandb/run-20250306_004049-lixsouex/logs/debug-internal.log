@@ -1,0 +1,26 @@
+{"time":"2025-03-06T00:40:49.286041974+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250306_004049-lixsouex/logs/debug-core.log"}
+{"time":"2025-03-06T00:40:49.391533706+05:30","level":"INFO","msg":"created new stream","id":"lixsouex"}
+{"time":"2025-03-06T00:40:49.391568069+05:30","level":"INFO","msg":"stream: started","id":"lixsouex"}
+{"time":"2025-03-06T00:40:49.391602921+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lixsouex"}
+{"time":"2025-03-06T00:40:49.391619125+05:30","level":"INFO","msg":"sender: started","stream_id":"lixsouex"}
+{"time":"2025-03-06T00:40:49.391706919+05:30","level":"INFO","msg":"handler: started","stream_id":"lixsouex"}
+{"time":"2025-03-06T00:40:49.840044402+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:40:49.935490383+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T00:40:49.935540042+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T00:40:50.142459621+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T00:40:50.183464619+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T00:40:50.183519516+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T00:40:50.183529853+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T00:40:50.685990029+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T00:40:50.692618586+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T00:40:51.007150151+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T00:40:51.012821494+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T00:40:51.10666853+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T00:40:51.112034584+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T00:40:51.112777865+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T00:40:51.119607294+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T00:40:51.121174246+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T00:45:43.208200861+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T00:45:43.249422131+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T00:45:45.924970487+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T00:45:45.928535525+05:30","level":"INFO","msg":"Pausing system monitor"}

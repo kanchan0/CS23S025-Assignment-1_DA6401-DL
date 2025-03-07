@@ -1,0 +1,41 @@
+{
+  "os":  "Linux-6.8.0-54-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2025-03-05T19:50:48.076636Z",
+  "program":  "/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/test.ipynb",
+  "codePath":  "test.ipynb",
+  "git":  {
+    "remote":  "git@github.com:kanchan0/CS23S025-Assignment-1_DA6401-DL.git",
+    "commit":  "781d726844987665eeaa2fc098547d7e6e2759f7"
+  },
+  "email":  "cs23s025@cse.iitm.ac.in",
+  "root":  "/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL",
+  "host":  "dawnlab",
+  "executable":  "/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/DLenv/bin/python",
+  "codePathLocal":  "test.ipynb",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce GT 710",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "200449576960",
+      "used":  "27883536384"
+    }
+  },
+  "memory":  {
+    "total":  "33508106240"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GT 710",
+      "memoryTotal":  "2096103424",
+      "architecture":  "Kepler"
+    }
+  ],
+  "cudaVersion":  "11.4"
+}

@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 32
+epochs:
+  value: 5
+h_layers:
+  value: 5
+learning_rate:
+  value: 0.001
+neurons:
+  value: 32
+optimizer:
+  value: nesterov

@@ -1,0 +1,22 @@
+{"time":"2025-03-06T22:08:13.835068201+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250306_220813-azdeelxa/logs/debug-core.log"}
+{"time":"2025-03-06T22:08:13.940136763+05:30","level":"INFO","msg":"created new stream","id":"azdeelxa"}
+{"time":"2025-03-06T22:08:13.940180065+05:30","level":"INFO","msg":"stream: started","id":"azdeelxa"}
+{"time":"2025-03-06T22:08:13.940292652+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"azdeelxa"}
+{"time":"2025-03-06T22:08:13.940351669+05:30","level":"INFO","msg":"handler: started","stream_id":"azdeelxa"}
+{"time":"2025-03-06T22:08:13.940313744+05:30","level":"INFO","msg":"sender: started","stream_id":"azdeelxa"}
+{"time":"2025-03-06T22:08:14.363607917+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T22:08:14.479529322+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T22:08:33.009602392+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T22:08:33.282336577+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T22:08:35.045384347+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T22:08:35.08548839+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T22:08:42.447459477+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T22:08:42.464155422+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T22:08:42.464883391+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T22:08:43.458419583+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T22:08:43.46649276+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary","runtime_seconds":0.007895218}],"total_operations":1}}
+{"time":"2025-03-06T22:08:44.815617695+05:30","level":"INFO","msg":"stream: closing","id":"azdeelxa"}
+{"time":"2025-03-06T22:08:44.815648216+05:30","level":"INFO","msg":"handler: closed","stream_id":"azdeelxa"}
+{"time":"2025-03-06T22:08:44.81565981+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"azdeelxa"}
+{"time":"2025-03-06T22:08:44.815673988+05:30","level":"INFO","msg":"sender: closed","stream_id":"azdeelxa"}
+{"time":"2025-03-06T22:08:44.815737824+05:30","level":"INFO","msg":"stream: closed","id":"azdeelxa"}

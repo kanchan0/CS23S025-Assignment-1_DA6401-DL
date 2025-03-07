@@ -1,0 +1,8 @@
+{"time":"2025-03-06T00:40:14.349880243+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250306_004014-lekr9r6s/logs/debug-core.log"}
+{"time":"2025-03-06T00:40:14.454713346+05:30","level":"INFO","msg":"created new stream","id":"lekr9r6s"}
+{"time":"2025-03-06T00:40:14.454747639+05:30","level":"INFO","msg":"stream: started","id":"lekr9r6s"}
+{"time":"2025-03-06T00:40:14.454781025+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lekr9r6s"}
+{"time":"2025-03-06T00:40:14.454811058+05:30","level":"INFO","msg":"sender: started","stream_id":"lekr9r6s"}
+{"time":"2025-03-06T00:40:14.454863511+05:30","level":"INFO","msg":"handler: started","stream_id":"lekr9r6s"}
+{"time":"2025-03-06T00:40:14.723548114+05:30","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-06T00:40:14.723611603+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}

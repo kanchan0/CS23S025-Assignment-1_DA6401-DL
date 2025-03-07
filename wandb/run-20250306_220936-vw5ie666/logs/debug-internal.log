@@ -1,0 +1,22 @@
+{"time":"2025-03-06T22:09:36.299082809+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250306_220936-vw5ie666/logs/debug-core.log"}
+{"time":"2025-03-06T22:09:36.408223376+05:30","level":"INFO","msg":"created new stream","id":"vw5ie666"}
+{"time":"2025-03-06T22:09:36.408270031+05:30","level":"INFO","msg":"stream: started","id":"vw5ie666"}
+{"time":"2025-03-06T22:09:36.408316826+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vw5ie666"}
+{"time":"2025-03-06T22:09:36.40832402+05:30","level":"INFO","msg":"sender: started","stream_id":"vw5ie666"}
+{"time":"2025-03-06T22:09:36.408424454+05:30","level":"INFO","msg":"handler: started","stream_id":"vw5ie666"}
+{"time":"2025-03-06T22:09:36.829645282+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T22:09:36.9428977+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T22:09:36.942966844+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T22:09:37.182677682+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T22:09:37.223503337+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T22:09:37.223543776+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-06T22:09:37.223552436+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-06T22:09:37.800740791+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T22:09:37.802048177+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T22:09:38.77235041+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_images_0_cd8689e0f2a035303171.png","runtime_seconds":0.700204084,"progress":"609B/609B"},{"desc":"uploading media/images/sample_images_0_4d144877c9093c197264.png","runtime_seconds":0.700199894,"progress":"374B/374B"},{"desc":"uploading media/images/sample_images_0_352ec8bcbb7f793c3857.png","runtime_seconds":0.700194656,"progress":"503B/503B"},{"desc":"uploading media/images/sample_images_0_f9ae28233f32bf80214f.png","runtime_seconds":0.700179221,"progress":"681B/681B"},{"desc":"uploading output.log","runtime_seconds":0.700172656},{"desc":"uploading media/images/sample_images_0_7f9147937f711e4ba16e.png","runtime_seconds":0.700167486,"progress":"560B/560B"},{"desc":"uploading media/images/sample_images_0_65989982ca9140b3494a.png","runtime_seconds":0.700160572,"progress":"523B/523B"},{"desc":"uploading config.yaml","runtime_seconds":0.38294848,"progress":"581B/581B"}],"total_operations":8}}
+{"time":"2025-03-06T22:09:39.407239745+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T22:09:40.747925465+05:30","level":"INFO","msg":"stream: closing","id":"vw5ie666"}
+{"time":"2025-03-06T22:09:40.747949281+05:30","level":"INFO","msg":"handler: closed","stream_id":"vw5ie666"}
+{"time":"2025-03-06T22:09:40.747960735+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vw5ie666"}
+{"time":"2025-03-06T22:09:40.747984621+05:30","level":"INFO","msg":"sender: closed","stream_id":"vw5ie666"}
+{"time":"2025-03-06T22:09:40.748038889+05:30","level":"INFO","msg":"stream: closed","id":"vw5ie666"}

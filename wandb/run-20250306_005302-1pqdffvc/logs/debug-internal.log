@@ -1,0 +1,7 @@
+{"time":"2025-03-06T00:53:02.973726267+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250306_005302-1pqdffvc/logs/debug-core.log"}
+{"time":"2025-03-06T00:53:03.078715954+05:30","level":"INFO","msg":"created new stream","id":"1pqdffvc"}
+{"time":"2025-03-06T00:53:03.078755486+05:30","level":"INFO","msg":"stream: started","id":"1pqdffvc"}
+{"time":"2025-03-06T00:53:03.078781677+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"1pqdffvc"}
+{"time":"2025-03-06T00:53:03.078795436+05:30","level":"INFO","msg":"sender: started","stream_id":"1pqdffvc"}
+{"time":"2025-03-06T00:53:03.078828821+05:30","level":"INFO","msg":"handler: started","stream_id":"1pqdffvc"}
+{"time":"2025-03-06T00:53:03.685355643+05:30","level":"INFO","msg":"Starting system monitor"}

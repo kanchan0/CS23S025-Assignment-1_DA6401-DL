@@ -1,0 +1,8 @@
+{"time":"2025-03-06T00:51:53.226622569+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/kanchan/Downloads/Courses/DL(DA6401)/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250306_005153-3lt5w2y4/logs/debug-core.log"}
+{"time":"2025-03-06T00:51:53.331772443+05:30","level":"INFO","msg":"created new stream","id":"3lt5w2y4"}
+{"time":"2025-03-06T00:51:53.331813022+05:30","level":"INFO","msg":"stream: started","id":"3lt5w2y4"}
+{"time":"2025-03-06T00:51:53.331835861+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"3lt5w2y4"}
+{"time":"2025-03-06T00:51:53.3318631+05:30","level":"INFO","msg":"handler: started","stream_id":"3lt5w2y4"}
+{"time":"2025-03-06T00:51:53.331944258+05:30","level":"INFO","msg":"sender: started","stream_id":"3lt5w2y4"}
+{"time":"2025-03-06T00:51:53.604508839+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-06T00:51:53.60457086+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404 Not Found: {\"errors\":[{\"message\":\"entity ----username---- not found during upsertBucket\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
