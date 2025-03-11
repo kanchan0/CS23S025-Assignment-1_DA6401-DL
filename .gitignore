@@ -1,2 +1,2 @@
-# Ignore virtual environments
-DLenv/
+__pycache__/
+DLENV/
