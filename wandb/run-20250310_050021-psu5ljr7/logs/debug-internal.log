@@ -1,0 +1,16 @@
+{"time":"2025-03-10T05:00:21.223988178+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/kanchan/Downloads/Courses/DL_DA6401/CS23S025-Assignment-1_DA6401-DL/wandb/run-20250310_050021-psu5ljr7/logs/debug-core.log"}
+{"time":"2025-03-10T05:00:21.328656561+05:30","level":"INFO","msg":"created new stream","id":"psu5ljr7"}
+{"time":"2025-03-10T05:00:21.328690434+05:30","level":"INFO","msg":"stream: started","id":"psu5ljr7"}
+{"time":"2025-03-10T05:00:21.328743375+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"psu5ljr7"}
+{"time":"2025-03-10T05:00:21.328759578+05:30","level":"INFO","msg":"handler: started","stream_id":"psu5ljr7"}
+{"time":"2025-03-10T05:00:21.328802881+05:30","level":"INFO","msg":"sender: started","stream_id":"psu5ljr7"}
+{"time":"2025-03-10T05:00:21.666767903+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T05:01:58.317538623+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T05:01:58.322034255+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T05:01:59.320307041+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.389848269,"progress":"9B/9B"},{"desc":"uploading config.yaml","runtime_seconds":0.108320314,"progress":"1.0KB/1.0KB"}],"total_operations":2}}
+{"time":"2025-03-10T05:01:59.549343206+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T05:01:59.835343675+05:30","level":"INFO","msg":"stream: closing","id":"psu5ljr7"}
+{"time":"2025-03-10T05:01:59.835369936+05:30","level":"INFO","msg":"handler: closed","stream_id":"psu5ljr7"}
+{"time":"2025-03-10T05:01:59.835384324+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"psu5ljr7"}
+{"time":"2025-03-10T05:01:59.835399479+05:30","level":"INFO","msg":"sender: closed","stream_id":"psu5ljr7"}
+{"time":"2025-03-10T05:01:59.835474421+05:30","level":"INFO","msg":"stream: closed","id":"psu5ljr7"}
