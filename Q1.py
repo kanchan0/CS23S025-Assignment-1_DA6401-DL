@@ -1,5 +1,4 @@
 from keras.datasets import fashion_mnist
-
 import numpy as np
 import matplotlib.pyplot as plt
 import wandb
@@ -28,12 +27,9 @@ images = []
 for i in range(10):
     for j in range(len(label_train)):
       if i==label_train[j]:
-        image = wandb.Image(img_train[j],  caption="Class {}".format(i))
+        image = wandb.Image(img_train[j],  caption=f"Class {i} ({class_labels[i]})")
         images.append(image)
         break
       
-wandb.log({"Images": images})
-        
-
-
+wandb.log({"Sample_image Q1": images})
 wandb.finish()

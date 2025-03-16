@@ -133,4 +133,4 @@ def train():
     wandb.run.finish
 
 sweep_id = wandb.sweep(sweep_configs, project="CS23S025-Assignment-1-DA6401-DL", entity="cs23s025-indian-institute-of-technology-madras")
-wandb.agent(sweep_id, function=train,count=1)
+wandb.agent(sweep_id, function=train,count=300)
