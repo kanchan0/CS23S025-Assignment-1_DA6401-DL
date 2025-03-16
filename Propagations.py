@@ -1,6 +1,4 @@
 import numpy as np
-
-
 from ActivationdANDLoss import activations
 from ActivationdANDLoss import loss
 
@@ -23,19 +21,13 @@ class propagations():
             #print(fashionnet.parameters['b2'])
 
             if i == 1:
-
                 fashionnet.activations[index_a] = np.matmul(fashionnet.parameters[index_w], img_train) + fashionnet.parameters[index_b]
-
             else:
-
                 fashionnet.activations[index_a] = np.matmul(fashionnet.parameters[index_w], fashionnet.activations["h" + str(i-1)]) + fashionnet.parameters[index_b]
 
             if i == fashionnet.total_layers - 1:
-
                 predictions = activations.activate(fashionnet.activations[index_a], wandb_configs.output_activation)
-
             else:
-
                 fashionnet.activations[index_h] = activations.activate(fashionnet.activations[index_a], wandb_configs.activation)
 
         return predictions

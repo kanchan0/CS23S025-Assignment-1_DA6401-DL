@@ -57,6 +57,9 @@ def train():
     m, v = optimization.initialize_m_v(fashionnet)
     num_batches = image_train.shape[1] // wandb_configs.batch_size
 
+    best_validation_accuracy = 0.0
+    best_model_weights = None
+
     # Train the neural network
     for epoch in range(wandb_configs.epochs):
         # Shuffle the data at the beginning of each epoch
@@ -81,10 +84,8 @@ def train():
             image_batch = image_shuffled[:, start_index:end_index]
             labels_batch = labels_shuffled[:, start_index:end_index]
 
-
             # Forward propagation
             predictions = propagations.forward_propagation(fashionnet, image_batch, wandb_configs)
-            
             if wandb_configs.optimizer == "nag":
 
                 for i in range(1, fashionnet.total_layers):
@@ -95,23 +96,39 @@ def train():
 
             # Backward propagation
             grad_parameters = propagations.backward_propagation(fashionnet, image_batch, labels_batch, predictions, wandb_configs, start_index, end_index, fashionnet.activations["a" + str(fashionnet.total_layers - 1)])
-            #print(grad_parameters["W2"])
             # Update parameters using gradients
             m, v, t = optimization.update_gradients(fashionnet, grad_parameters, wandb_configs, m, v, t)
             
         predictionsv = propagations.forward_propagation(fashionnet, image_val, wandb_configs)
         validation_loss = loss.compute_loss(predictionsv, one_hot_val, wandb_configs.loss, image_val.shape[1], wandb_configs.weight_decay, fashionnet)
 
-        # Mean loss for the full training set
-                
+        # Mean loss for the full training set        
         predictionsf = propagations.forward_propagation(fashionnet, image_train, wandb_configs)
         training_loss = loss.compute_loss(predictionsf, one_hot_train, wandb_configs.loss, image_shuffled.shape[1], wandb_configs.weight_decay, fashionnet)
 
         accuracyt = loss.calculate_accuracy(predictionsf, label_train)
         accuracyv = loss.calculate_accuracy(predictionsv, label_val)
 
-        wandb.log({"Training Accuracy sq": accuracyt, "Validation Accuracy sq": accuracyv, "Training Loss sq": training_loss, "Validation Loss sq": validation_loss, "Epoch": epoch}) 
+        wandb.log({"Training Accuracy": accuracyt,
+                    "Validation Accuracy": accuracyv, 
+                    "Training Loss": training_loss,
+                    "Validation Loss": validation_loss, 
+                    "Epoch": epoch})
+         
+        #saving the best model
+        if accuracyv > best_validation_accuracy:
+            
+            best_validation_accuracy = accuracyv
+            best_model_weights = fashionnet.get_weights()
+            model_data = {
+                "weights": best_model_weights,
+                "activation":wandb.config.activation
+            }
 
+            np.save("best_model.npy", model_data) 
+            artifact = wandb.Artifact("best_model", type="model")
+            artifact.add_file("best_model.npy")
+            wandb.log_artifact(artifact)
 
     wandb.run.finish
 
