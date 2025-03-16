@@ -1,6 +1,6 @@
 sweep_configs = {
 
-            "name": "DL-Assignment-1_Sweep-8",
+            "name": "DL-Assignment-1_msqSWEEP",
             "metric": {
                         "name":"Validation Accuracy",
                         "goal": "maximize"
@@ -40,8 +40,8 @@ sweep_configs = {
                         "values": [0.005, 0.05]
                     },
                     "loss": {
-                        "values": ["cross_entropy"]
-                        #"values" :["mean_squared_error"]
+                        #"values": ["cross_entropy"]
+                        "values" :["mean_squared_error"]
                     },
                     "output_activation": {
                         "values": ["softmax"]

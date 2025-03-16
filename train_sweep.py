@@ -109,26 +109,26 @@ def train():
         accuracyt = loss.calculate_accuracy(predictionsf, label_train)
         accuracyv = loss.calculate_accuracy(predictionsv, label_val)
 
-        wandb.log({"Training Accuracy": accuracyt,
-                    "Validation Accuracy": accuracyv, 
-                    "Training Loss": training_loss,
-                    "Validation Loss": validation_loss, 
-                    "Epoch": epoch})
+        wandb.log({"Training Accuracy sq": accuracyt,
+                    "Validation Accuracy sq": accuracyv, 
+                    "Training Loss sq": training_loss,
+                    "Validation Loss sq": validation_loss, 
+                    "Epoch sq": epoch})
          
-        #saving the best model
-        if accuracyv > best_validation_accuracy:
+        # #saving the best model
+        # if accuracyv > best_validation_accuracy:
             
-            best_validation_accuracy = accuracyv
-            best_model_weights = fashionnet.get_weights()
-            model_data = {
-                "weights": best_model_weights,
-                "activation":wandb.config.activation
-            }
+        #     best_validation_accuracy = accuracyv
+        #     best_model_weights = fashionnet.get_weights()
+        #     model_data = {
+        #         "weights": best_model_weights,
+        #         "activation":wandb.config.activation
+        #     }
 
-            np.save("best_model.npy", model_data) 
-            artifact = wandb.Artifact("best_model", type="model")
-            artifact.add_file("best_model.npy")
-            wandb.log_artifact(artifact)
+        #     np.save("best_model.npy", model_data) 
+        #     artifact = wandb.Artifact("best_model", type="model")
+        #     artifact.add_file("best_model.npy")
+        #     wandb.log_artifact(artifact)
 
     wandb.run.finish
 

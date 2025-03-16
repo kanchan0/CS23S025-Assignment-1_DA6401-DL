@@ -26,6 +26,22 @@ This project contains multiple scripts and modules that work together to define,
   - Responsible for computing the loss and its gradient. It also generates run identifiers and constructs a configuration dictionary from the command-line arguments provided to `train.py`.
 - Includes functions for applying activation functions to inputs as well as calculating their gradients.
 
+- **CONFIG.py**
+  responsible for providing configuration to wandb sweep. It has method for sweep set as basian.
+
+- **confusionMatrix.py**
+  contains code for generating confusion matrix for the best model.
+
+- **X_test.npy AND y_test.npy**
+  it contains test data and these are used by `confusionMatrix.py` for generating confusion matrix for the best model.
+
+- **best_model.npy**
+  it contains model parameter for the best model and used to calculate confusion matrix.
+
+- **fetchSweepID.py**
+  As name suggests,it is used to get the sweep id and its corresponding name. it is helpful while creating filter in report.
+
+
 ## How to Run
 
 ### 1. Install Required Libraries
