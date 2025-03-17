@@ -35,7 +35,7 @@ This project contains multiple scripts and modules that work together to define,
 - **X_test.npy AND y_test.npy**
   it contains test data and these are used by `confusionMatrix.py` for generating confusion matrix for the best model.
 
-- **best_model.npy**
+- **best_model.npz**
   it contains model parameter for the best model and used to calculate confusion matrix.
 
 - **fetchSweepID.py**

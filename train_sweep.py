@@ -9,9 +9,9 @@ from Optimizor4BackProp import optimization
 from CONFIG import sweep_configs
 
 hyperparameter_defaults = dict(
-    batch_size = 64,
+    batch_size = 128,
     learning_rate = 0.001,
-    epochs = 10,
+    epochs = 20,
     n_hidden_layers = 4,
     size_hidden_layers = 64,
     optimizer = "adam"
@@ -115,22 +115,25 @@ def train():
                     "Validation Loss sq": validation_loss, 
                     "Epoch sq": epoch})
          
-        # #saving the best model
-        # if accuracyv > best_validation_accuracy:
-            
-        #     best_validation_accuracy = accuracyv
-        #     best_model_weights = fashionnet.get_weights()
-        #     model_data = {
-        #         "weights": best_model_weights,
-        #         "activation":wandb.config.activation
-        #     }
+        # Save the best model
+        if accuracyv > best_validation_accuracy:
+            best_validation_accuracy = accuracyv
+            best_model_weights = fashionnet.get_weights()
 
-        #     np.save("best_model.npy", model_data) 
-        #     artifact = wandb.Artifact("best_model", type="model")
-        #     artifact.add_file("best_model.npy")
-        #     wandb.log_artifact(artifact)
+            # Save model correctly
+            model_data = {
+                "weights": best_model_weights,
+                "activation": wandb.config.activation
+            }
 
-    wandb.run.finish
+            np.savez("best_model.npz", **model_data)  # ✅ Use np.savez
+
+            # Log artifact with correct file name
+            artifact = wandb.Artifact("best_model_final", type="model")
+            artifact.add_file("best_model.npz")  # ✅ Correct file name
+            wandb.log_artifact(artifact)
+
+    wandb.run.finish()
 
 sweep_id = wandb.sweep(sweep_configs, project="CS23S025-Assignment-1-DA6401-DL", entity="cs23s025-indian-institute-of-technology-madras")
-wandb.agent(sweep_id, function=train,count=300)
+wandb.agent(sweep_id, function=train,count=1)
