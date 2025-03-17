@@ -4,6 +4,7 @@ from train import wbhelp
 from ActivationdANDLoss import loss
 from NeuralNetwork import NN
 from keras.datasets import fashion_mnist
+from keras.datasets import mnist
 from Propagations import propagations
 from Optimizor4BackProp import optimization
 from CONFIG import sweep_configs
@@ -18,8 +19,8 @@ hyperparameter_defaults = dict(
     )
 def train():
 
-    (img_train, lbl_train), (img_test, lbl_test) = fashion_mnist.load_data()
-
+    #(img_train, lbl_train), (img_test, lbl_test) = fashion_mnist.load_data()
+    (img_train, lbl_train), (img_test, lbl_test) = mnist.load_data()
     #Initialise wandb
     wandb.init(config=hyperparameter_defaults, 
                project="CS23S025-Assignment-1-DA6401-DL",
@@ -109,29 +110,29 @@ def train():
         accuracyt = loss.calculate_accuracy(predictionsf, label_train)
         accuracyv = loss.calculate_accuracy(predictionsv, label_val)
 
-        wandb.log({"Training Accuracy sq": accuracyt,
-                    "Validation Accuracy sq": accuracyv, 
-                    "Training Loss sq": training_loss,
-                    "Validation Loss sq": validation_loss, 
-                    "Epoch sq": epoch})
+        wandb.log({"Training Accuracy": accuracyt,
+                    "Validation Accuracy": accuracyv, 
+                    "Training Loss": training_loss,
+                    "Validation Loss": validation_loss, 
+                    "Epoch": epoch})
          
-        # Save the best model
-        if accuracyv > best_validation_accuracy:
-            best_validation_accuracy = accuracyv
-            best_model_weights = fashionnet.get_weights()
+        # # Save the best model
+        # if accuracyv > best_validation_accuracy:
+        #     best_validation_accuracy = accuracyv
+        #     best_model_weights = fashionnet.get_weights()
 
-            # Save model correctly
-            model_data = {
-                "weights": best_model_weights,
-                "activation": wandb.config.activation
-            }
+        #     # Save model correctly
+        #     model_data = {
+        #         "weights": best_model_weights,
+        #         "activation": wandb.config.activation
+        #     }
 
-            np.savez("best_model.npz", **model_data)  # ✅ Use np.savez
+        #     np.savez("best_model.npz", **model_data)  # ✅ Use np.savez
 
-            # Log artifact with correct file name
-            artifact = wandb.Artifact("best_model_final", type="model")
-            artifact.add_file("best_model.npz")  # ✅ Correct file name
-            wandb.log_artifact(artifact)
+        #     # Log artifact with correct file name
+        #     artifact = wandb.Artifact("best_model_final", type="model")
+        #     artifact.add_file("best_model.npz")  # ✅ Correct file name
+        #     wandb.log_artifact(artifact)
 
     wandb.run.finish()
 

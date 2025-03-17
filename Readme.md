@@ -1,3 +1,15 @@
+## Project Links
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kanchan0/CS23S025-Assignment-1_DA6401-DL/)
+
+[![WandB Report](https://img.shields.io/badge/WandB-Report-orange?logo=weightsandbiases)](https://wandb.ai/cs23s025-indian-institute-of-technology-madras/CS23S025-Assignment-1-DA6401-DL/reports/Kanchan-s-CS23S025-DA6401-Assignment-1--VmlldzoxMTY1NTY0OA?accessToken=x0rr5hr1kffjnreg128kq630iyyew5r9qu2rqihuo9oua53z7dup3dl4wdc00xxg)
+
+
+## OR
+
+- **GitHub Repository:** [CS23S025-Assignment-1_DA6401-DL](https://github.com/kanchan0/CS23S025-Assignment-1_DA6401-DL/)
+- **WandB Report:** [Kanchan's CS23S025-DA6401-Assignment-1](https://wandb.ai/cs23s025-indian-institute-of-technology-madras/CS23S025-Assignment-1-DA6401-DL/reports/Kanchan-s-CS23S025-DA6401-Assignment-1--VmlldzoxMTY1NTY0OA?accessToken=x0rr5hr1kffjnreg128kq630iyyew5r9qu2rqihuo9oua53z7dup3dl4wdc00xxg)
+
 # Project Overview
 
 This project contains multiple scripts and modules that work together to define, train, and evaluate a neural network model. Below is a summary of each file and its purpose.

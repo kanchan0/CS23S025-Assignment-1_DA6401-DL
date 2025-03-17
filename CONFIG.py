@@ -1,6 +1,6 @@
 sweep_configs = {
 
-            "name": "DL-Assignment-1_sweepforCOnfusionMatrix",
+            "name": "DL-Assignment-1",
             "metric": {
                         "name":"Validation Accuracy",
                         "goal": "maximize"
@@ -13,35 +13,35 @@ sweep_configs = {
                       },
             "parameters": {
                     "hidden_size": {
-                        "values": [64]
+                        "values": [32, 64, 128]
                     },
                     "num_layers": {
-                        "values": [4]
+                        "values": [3,4, 5]
                     },
                     "activation": {
-                        "values": ["ReLU"]
+                        "values": ["sigmoid", "tanh", "ReLU"]
                     },
                     "optimizer": {
-                        "values": ["adam"]
+                        "values": ["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"]
                     },
                     "epochs": {
-                        "values": [20]
+                        "values": [5,15 ,10, 20]
                     },
                     "batch_size": {
-                        "values": [128]
+                        "values": [8, 16, 64, 128]
                     },
                     "learning_rate": {
-                        "values": [0.001]
+                        "values": [0.001, 0.0001,0.01]
                     },
                     "weight_init": {
-                        "values": ["Xavier"]
+                        "values": ["random", "Xavier"]
                     },
                     "weight_decay": {
-                        "values": [0.005]
+                        "values": [0.005, 0.05]
                     },
                     "loss": {
-                        "values": ["cross_entropy"]
-                        #"values" :["mean_squared_error"]
+                        #"values": ["cross_entropy"]
+                        "values" :["mean_squared_error"]
                     },
                     "output_activation": {
                         "values": ["softmax"]

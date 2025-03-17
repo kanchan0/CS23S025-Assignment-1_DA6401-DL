@@ -17,8 +17,6 @@ for sweep_id, sweep_name in sweep_dict.items():
     print(f"Sweep Name: {sweep_name}, Sweep ID: {sweep_id}")
 
 '''
-python3 fetchSweepID.py 
-
 Sweep Name: DL-Assignment-1, Sweep ID: 38qy9h0x
 Sweep Name: DL-Assignment-1_running_Remote, Sweep ID: xm7jkopc
 Sweep Name: DL-Assignment-1_remote_SqLoss, Sweep ID: amu7xlj0
@@ -32,4 +30,7 @@ Sweep Name: DL-Assignment-1_Sweep-5, Sweep ID: wawyr66w
 Sweep Name: DL-Assignment-1_Sweep-6, Sweep ID: ah52mmyl
 Sweep Name: DL-Assignment-1_Sweep-7, Sweep ID: ivyve8tl
 Sweep Name: DL-Assignment-1_Sweep-8, Sweep ID: ebd3n6gv
+Sweep Name: DL-Assignment-1_sqfSweep, Sweep ID: jnvxoqcd
+Sweep Name: DL-Assignment-1_sweepforCOnfusionMatrix, Sweep ID: ohpzopde
+Sweep Name: DL-Assignment-1_sweepforcomparison, Sweep ID: ecm453lk
 '''
